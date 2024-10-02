@@ -7,6 +7,7 @@ job_titles = []
 companies = []
 locations = []
 dates = []
+
 def get_data():
     url = "https://realpython.github.io/fake-jobs/"
     response = requests.get(url)
